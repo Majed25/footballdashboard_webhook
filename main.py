@@ -33,7 +33,7 @@ def trigger_webhook():
     match_ids = [match['id'] for match in matches]
     '''Trigger webhook if any new mathces are played '''
     if len(match_ids) != ids_count['ids_count']:
-        response = requests.post('https://footballdashboard.azurewebsites.net/refresh_dashboard')
+        response = requests.post('https://fbdashboard.azurewebsites.net/refresh_dashboard')
         if response.status_code == 200:
             print(response.json())
             ids_count['ids_count'] = len(match_ids)
