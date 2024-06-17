@@ -44,7 +44,7 @@ def trigger_webhook():
 
 
 
-if __name__ == 'main':
+if __name__ == '__main__':
     trigger_webhook()
 
 
