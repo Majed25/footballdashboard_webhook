@@ -34,6 +34,7 @@ def trigger_webhook():
     '''Trigger webhook if any new mathces are played '''
     if len(match_ids) != ids_count['ids_count']:
         response = requests.post('https://fbdashboard.azurewebsites.net/refresh_dashboard')
+        print(response.status_code)
         if response.status_code == 200:
             print(response.json())
             ids_count['ids_count'] = len(match_ids)
