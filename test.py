@@ -16,7 +16,7 @@ def trigger_webhook():
     print(ids_count)
         # refresh ids counts
     with open(_ids_count, 'w') as f:
-        json.dump(ids_count, f)
+        json.dump(ids_count_file, f)
 
 if __name__ == '__main__':
     trigger_webhook()
