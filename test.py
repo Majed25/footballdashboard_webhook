@@ -15,8 +15,8 @@ def trigger_webhook():
     ids_count['ids_count'] = 888
     print(ids_count)
         # refresh ids counts
-    with open(_ids_count, 'w') as f:
-        json.dump(ids_count_file, f)
+    with open(_ids_count_file, 'w') as f:
+        json.dump(ids_count, f)
 
 if __name__ == '__main__':
     trigger_webhook()
