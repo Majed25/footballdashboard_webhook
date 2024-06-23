@@ -31,7 +31,7 @@ And sends a post call to https://fbtransfersdashboard.azurewebsites.net/refresh_
 
 ## Workflow Configuration
 
-The automation script is configured to run every 2 hours using GitHub Actions During Football Season. The workflow file `.github/workflows/run-automation-script.yml` contains the schedule configuration and the steps to run the script.
+The automation script is configured using Cron job & GitHub Actions During Football Season. The workflow file `.github/workflows/run-automation-script.yml` contains the schedule configuration and the steps to run the script.
 
 ## File Descriptions
 
