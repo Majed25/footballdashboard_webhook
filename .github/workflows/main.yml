@@ -2,7 +2,7 @@ name: Run Automation Script
 
 on:
   schedule:
-    - cron: '0 0 * * *'  # This runs the script every hour
+    - cron: 0 12 * * *'  # This runs the script every hour
   workflow_dispatch:
   
 env:
