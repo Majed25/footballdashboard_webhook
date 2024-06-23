@@ -4,6 +4,10 @@ on:
   schedule:
     - cron: '0 0 * * *'  # This runs the script every hour
   workflow_dispatch:
+  
+env:
+  API_TOKEN: ${{ secrets.API_TOKEN }}  # Access the secret securely
+
 
 jobs:
   run-python-script: 
@@ -41,7 +45,4 @@ jobs:
         git push
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-env:
-  API_TOKEN: ${{ secrets.API_TOKEN }}  # Access the secret securely
-
-      
+    
