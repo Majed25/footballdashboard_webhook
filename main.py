@@ -7,8 +7,10 @@ import logging
 # Set up logging
 logging.basicConfig(filename='main.log', level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 
+API_TOKEN = os.getenv('API_TOKEN')
+
 Headers = {
-    'X-Auth-Token': 'fd3e3c8fccfb418ea187aba67e985377'
+    'X-Auth-Token': API_TOKEN
 }
 
 # Top 5 leagues
