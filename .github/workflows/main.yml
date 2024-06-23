@@ -22,7 +22,7 @@ jobs:
       run: | 
             python -m pip install --upgrade pip
             pip install -r requirements.txt
-            
+
     - name: Run script
       run: python main.py
 
@@ -41,4 +41,7 @@ jobs:
         git push
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+env:
+  API_TOKEN: ${{ secrets.API_TOKEN }}  # Access the secret securely
+
       
