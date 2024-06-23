@@ -8,6 +8,7 @@ import logging
 logging.basicConfig(filename='main.log', level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 
 API_TOKEN = os.getenv('API_TOKEN')
+print(API_TOKEN, type(API_TOKEN))
 
 Headers = {
     'X-Auth-Token': API_TOKEN
