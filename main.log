@@ -40,3 +40,17 @@
 2024-06-23 16:23:38,871 - ERROR - Failed to fetch data for competition ID: 2015, Status code: 403
 2024-06-23 16:23:38,871 - INFO - Total matches fetched: 0
 2024-06-23 16:23:38,871 - INFO - No new matches detected. No webhook triggered.
+2024-06-23 16:29:14,352 - INFO - Starting the webhook trigger process
+2024-06-23 16:29:14,352 - INFO - Loaded ids_count from file: {'ids_count': 0}
+2024-06-23 16:29:14,353 - INFO - Checking competition ID: 2002
+2024-06-23 16:29:14,856 - ERROR - Failed to fetch data for competition ID: 2002, Status code: 403
+2024-06-23 16:29:14,856 - INFO - Checking competition ID: 2019
+2024-06-23 16:29:15,319 - ERROR - Failed to fetch data for competition ID: 2019, Status code: 403
+2024-06-23 16:29:15,319 - INFO - Checking competition ID: 2021
+2024-06-23 16:29:15,870 - ERROR - Failed to fetch data for competition ID: 2021, Status code: 403
+2024-06-23 16:29:15,870 - INFO - Checking competition ID: 2014
+2024-06-23 16:29:16,472 - ERROR - Failed to fetch data for competition ID: 2014, Status code: 403
+2024-06-23 16:29:16,473 - INFO - Checking competition ID: 2015
+2024-06-23 16:29:16,987 - ERROR - Failed to fetch data for competition ID: 2015, Status code: 403
+2024-06-23 16:29:16,987 - INFO - Total matches fetched: 0
+2024-06-23 16:29:16,987 - INFO - No new matches detected. No webhook triggered.
